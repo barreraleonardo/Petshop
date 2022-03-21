@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    width: 1024px;
+    margin: auto;
+}
+
+main{
+    width: 1024px;
+    margin: auto;
+}
+.navInfo{
+    background-color:#222222;
+    display: flex;
+    justify-content:space-between;
+    padding: 5px 100px;
+    height: 30px;
+}
+.navInfo > div > a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.navInfo > div > select{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.iconoMascota{
+    width:15.68px ;
+    height: 13.12px;
+    margin:3px;
+}
+
+h1{
+    font-size: 20px;
+}
+.catDog{
+    color:#FFFFFF ;
+}
+nav{
+    background-color: #F0A83E;
+    height: 62px;
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.menu > ul{
+    display: flex;
+    list-style: none;
+    font-size: 13px;
+    font-weight: 400;
+    gap: 10px;
+}
+.banner{
+    background-image:url(../img/banner.png);
+    background-repeat: no-repeat;
+    height: 409px;
+    display: flex;
+    justify-content:right;
+}
+.contenidoBanner{
+    margin-top: 146px;
+    margin-right: 12px;
+    text-align: center;
+}
+.contenidoBanner p{
+    margin: 12px;
+    color: #3C2313;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+.contenidoBanner button{
+    background-color: #F0A83E;
+    color: #ffffff;
+    padding: 15px 23px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 18.75px;
+    
+}
+.contenidoBanner div{
+    background-color: white;
+    padding: 9px 10px 10px 10px;
+    width: 365px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.contenidoBanner div h2{
+    font-weight: 400, regular;
+    font-size: 30px;
+    line-height: 35.16px;
+    text-align: center;
+}
+/*Productos*/
+
+.headerProductSection{
+    margin: 25px auto;
+    text-align: center;
+}
+.headerProductSection h2{
+    font-size: 40px;
+    font-weight: 700, bold;
+    margin: 10px 0px 20px 0px;
+}
+
+/*cards*/
+.productCard{
+    width: 265px;
+    height: 312px;
+    text-align: center;
+    background-color: #FBFAF6;
+}
+.productCard h3{
+    color: #3C2313;
+    font-size: 15px;
+    font-weight: 500, bold;
+    line-height: 18px;
+}
+.productCard p{
+    color: #F0A83E;
+    font-size: 15px;
+    font-weight: 500, bold;
+    line-height: 18px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+/*Formulario*/
+form{
+    width: 340px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin: 85px auto;
+}
+form h2{
+    margin-bottom: 20px;
+}
+.campo{
+    width: 100%;
+    height: 40px;
+    background: #3C2313;
+    border-radius: 15px;
+    width: 340px;
+    border: none;
+    padding: 0px;
+    margin-bottom:10px;
+    padding: 15px;
+    font-size: 9px;
+    color: white ;
+}
+::placeholder { 
+    color: white;
+    opacity: 1; 
+  }
+.botonFormulario{
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    color: white;
+}
+.bgGris{
+    background-color: #8A8787;
+}
+.bgOrange{
+    background-color: #F0A83E;
+}
+
+/*footer*/
+.barraFooter{
+    background-color: #F0A83E;
+    width: 1024px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 25px;
+}
+.suscribete{
+    display: flex;
+    color: white;
+}
+.suscribete h2{
+    font-size: 20px;
+    margin-left: 10px;
+}
+#mail{
+width: 271px;
+height: 40px;
+border-radius: 15px;
+padding:8px;
+font-size: 9px;
+line-height: 10.55px;
+color: #A0A0A0;
+}
+#boton{
+   width: 70px; 
+   height: 34px;
+   font-size: 9px;
+   background-color: #3C2313;
+   border-radius: 15px;
+   color: white;
+}
+.formFooter{
+    display: flex;
+    gap: 5px;
+    margin-right: 47px;
+    align-items: center;
+}
+.subFooter{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3C2313;
+    padding: 0px 70px;
+}
+.info img{
+    display: block;
+    margin: 20px;
+}
+.subFooter div h1{
+    color: white;
+}
+.subFooter div h1 span{
+    color: #F0A83E;
+}
+.copyright{
+    background-color: #222222;
+    
+    width: 1024px;
+    height: 20px;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    
+}
+.copyright p{
+    color: white;
+    font-size: 10px;
+    font-weight: 700, bold;
+    text-align: center;
+}
